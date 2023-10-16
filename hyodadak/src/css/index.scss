@@ -1,0 +1,44 @@
+.all{
+  display: flex;
+  .img_area{
+    
+  }
+  .info_area{
+    margin-top: 100px;
+    margin-left: 200px;
+    .info_container{
+      
+      .first_info{
+        color : #FF6D6D;
+        font-size: 25px;
+      }
+      .second_info{
+        margin-top: 15px;
+        font-size: 45px;
+        span{
+          font-weight: bold;
+        }
+      }
+      .third_info{
+        margin-top: 15px;
+        font-size: 18px;
+        // font-weight: lighter;
+        color : #000000;
+      }
+    }
+    .button_container{
+      margin-top: 20px;
+      button{
+        width:295px;
+        height: 50px;
+        background-color: #FF6D6D;
+        color: white;
+        border-radius: 10px;
+        font-size : 20px;
+        font-weight: bold;
+        border: white;
+      }
+      
+    }
+  }
+}

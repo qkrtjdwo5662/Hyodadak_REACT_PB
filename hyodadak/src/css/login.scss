@@ -1,0 +1,82 @@
+.login_wrap{
+  width: 500px;
+  // display: flex;
+  // justify-content: center;
+}
+.btn_set{
+  button  {
+    width: 410px;
+    height: 58px;
+    border-radius: 5px;
+    border: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+
+.all{
+  .info{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+  }
+  .container{
+    margin-top: 100px;
+    .login_top{
+      display: flex;
+      justify-content: center;
+      .login_wrap{
+        width: 500px;
+        form{
+          .login_form_row{
+            margin-top: 20px;
+            // width: 410px;
+            // height: 50px;
+            input{
+              // width: inherit;
+              // height: inherit;
+              width: 410px;
+              height: 50px;
+              font-size: 20px;
+            }
+          }
+          .login_btn{
+            margin-top: 10px;
+            .member_login{
+              background-color: #FF6D6D;
+              color : white;
+            }
+            .kakao_login{
+              background-color: #FFE84F;
+            }
+          }
+        }
+      }
+    }
+    .login_bottom{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      .login_wrap{
+        .comment{
+          
+          display: flex;
+          justify-content: center;
+        
+        }
+        .join_btn{
+          
+          .member_join{
+            background-color: white;
+            color : #FF6D6D;
+            border: 3px solid #FF6D6D;
+            
+          }
+        }
+      }
+    }
+  }
+  
+}
