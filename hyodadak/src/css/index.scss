@@ -1,11 +1,20 @@
 .all{
+  width: 1440px;
+  height: 1080px;
   display: flex;
   .img_area{
+    overflow: hidden;
     
+    img{
+      object-fit: cover;
+    }
   }
   .info_area{
-    margin-top: 100px;
-    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 100px;
+    overflow: hidden;
     .info_container{
       
       .first_info{
@@ -13,21 +22,21 @@
         font-size: 25px;
       }
       .second_info{
-        margin-top: 15px;
+        padding-top: 15px;
         font-size: 45px;
         span{
           font-weight: bold;
         }
       }
       .third_info{
-        margin-top: 15px;
+        padding-top: 15px;
         font-size: 18px;
         // font-weight: lighter;
         color : #000000;
       }
     }
     .button_container{
-      margin-top: 20px;
+      padding-top: 20px;
       button{
         width:295px;
         height: 50px;
@@ -38,7 +47,13 @@
         font-weight: bold;
         border: white;
       }
-      
+    }
+    .img_container{
+      padding-top: 200px;
+      overflow: hidden;
+      img{
+        object-fit: cover;
+      }
     }
   }
 }

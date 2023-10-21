@@ -1,28 +1,40 @@
 .all {
+  width: 1440px;
+  height: 1080px;
   display: flex;
 }
+.all .img_area {
+  overflow: hidden;
+}
+.all .img_area img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .all .info_area {
-  margin-top: 100px;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 100px;
+  overflow: hidden;
 }
 .all .info_area .info_container .first_info {
   color: #FF6D6D;
   font-size: 25px;
 }
 .all .info_area .info_container .second_info {
-  margin-top: 15px;
+  padding-top: 15px;
   font-size: 45px;
 }
 .all .info_area .info_container .second_info span {
   font-weight: bold;
 }
 .all .info_area .info_container .third_info {
-  margin-top: 15px;
+  padding-top: 15px;
   font-size: 18px;
   color: #000000;
 }
 .all .info_area .button_container {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .all .info_area .button_container button {
   width: 295px;
@@ -33,4 +45,12 @@
   font-size: 20px;
   font-weight: bold;
   border: white;
+}
+.all .info_area .img_container {
+  padding-top: 200px;
+  overflow: hidden;
+}
+.all .info_area .img_container img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=index.css.map */

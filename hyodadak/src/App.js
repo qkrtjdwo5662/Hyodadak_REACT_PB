@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// import Login from './components/Login';
 
-import Login from './components/Login';
+import Index from "./components/Index";
 
 
 function App() {
   return (
     <>
-      <Login/>
+      {/* <Login/> */}
+      <Index/>
     </>
     
   );

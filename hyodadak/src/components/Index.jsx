@@ -1,5 +1,5 @@
-import indexImg from '../img/indexImg.png'
-import phoneImg from '../img/phone.png'
+import indexImg from '../img/index.png'
+import phoneImg from '../img/phone2.png'
 import '../css/index.css'
 
 export default function Index(){
@@ -21,7 +21,7 @@ export default function Index(){
         <div className='button_container'>
           <button>로그인하고 서비스 이용하기</button>
         </div>
-        <div>
+        <div className='img_container'>
           <img src={phoneImg} alt="phoneImg"/>
         </div>
       </div>   
