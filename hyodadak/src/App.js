@@ -1,13 +1,13 @@
-// import Login from './components/Login';
+import Login from './components/Login';
 
-import Index from "./components/Index";
+// import Index from "./components/Index";
 
 
 function App() {
   return (
     <>
-      {/* <Login/> */}
-      <Index/>
+      <Login/>
+      {/* <Index/> */}
     </>
     
   );

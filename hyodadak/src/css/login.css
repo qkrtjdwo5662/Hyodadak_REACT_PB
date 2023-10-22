@@ -1,7 +1,4 @@
-.login_wrap {
-  width: 500px;
-}
-
+@import url();
 .btn_set button {
   width: 410px;
   height: 58px;
@@ -11,32 +8,40 @@
   font-weight: bold;
 }
 
-.all .info {
-  margin-top: 200px;
+.all {
+  display: flex;
+  justify-content: center;
+}
+.all .container .info {
+  padding-top: 200px;
   display: flex;
   justify-content: center;
   font-size: 40px;
 }
-.all .container {
-  margin-top: 100px;
-}
 .all .container .login_top {
-  display: flex;
-  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 .all .container .login_top .login_wrap {
   width: 500px;
+  display: flex;
+  justify-content: center;
 }
 .all .container .login_top .login_wrap form .login_form_row {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .all .container .login_top .login_wrap form .login_form_row input {
   width: 410px;
   height: 50px;
   font-size: 20px;
 }
+.all .container .login_top .login_wrap form .comment_rule {
+  padding-top: 5px;
+}
 .all .container .login_top .login_wrap form .login_btn {
-  margin-top: 10px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
 }
 .all .container .login_top .login_wrap form .login_btn .member_login {
   background-color: #FF6D6D;
@@ -45,14 +50,22 @@
 .all .container .login_top .login_wrap form .login_btn .kakao_login {
   background-color: #FFE84F;
 }
+.all .container hr {
+  width: 410px;
+  text-align: center;
+}
 .all .container .login_bottom {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
-.all .container .login_bottom .login_wrap .comment {
+.all .container .login_bottom .login_wrap .comment_join {
+  font-size: 20px;
   display: flex;
   justify-content: center;
+}
+.all .container .login_bottom .login_wrap .join_btn {
+  padding-top: 15px;
 }
 .all .container .login_bottom .login_wrap .join_btn .member_join {
   background-color: white;
